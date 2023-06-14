@@ -4,15 +4,7 @@
   MADAMADAM is tha Expository Manifestation ov MDMDM Gnosis within tha MyriaD EcoSystem
 </p>
 
-## Checklist
-
-Working from a template, follow the checklist to make it what we want 
-
-
-- [ ] change demo link to hosted site
-- [ ] add a Logo to index.vue
-
-- [ ] Clean up the README when finished
+<p>Hosted on Netlify at <a href="https://madamadam.netlify.app/" target="_blank">madamadam.netlify.app</a>
 
 
 <br>
@@ -20,7 +12,7 @@ Working from a template, follow the checklist to make it what we want
 
 
 
-## Try it now!
+## Download A Local Copy
 
 > MADAMADAM requires Node >=14.18
 
