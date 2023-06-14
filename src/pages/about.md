@@ -6,14 +6,6 @@ title: About
   <h3>About</h3>
 </div>
 
-[MaGiK WeL](https://github.com/BBuchholz/magik-wel) is an opinionated [Vite](https://github.com/vitejs/vite) starter template adapted by [BBuchholz](https://github.com/BBuchholz)  from [Vitesse](https://github.com/antfu/vitesse) as a base template for all Coventry Grove sites. With **file-based routing**, **components auto importing**, **markdown support**, PWA and uses **UnoCSS** for styling and icons.
+MADAMADAM is tha Expository Manifestation ov MDMDM Gnosis within tha MyriaD EcoSystem
 
-```js
-// syntax highlighting example
-function vitesse() {
-  const foo = 'bar'
-  console.log(foo)
-}
-```
-
-Check out the [GitHub repo](https://github.com/BBuchholz/magik-wel) for more details.
+Check out the [GitHub repo](https://github.com/BBuchholz/madamadam) for more details.

@@ -18,8 +18,8 @@ const { t } = useI18n()
   <div>
     <img alt="Coventry Grove Builders Association Presents logo" src="/CGBAP_LOGO_CROPPED.png">
     <p>
-      <a rel="noreferrer" href="https://github.com/BBuchholz/magik-wel" target="_blank">
-        MaGiK WeL
+      <a rel="noreferrer" href="https://github.com/BBuchholz/madamadam" target="_blank">
+        MADAMADAM
       </a>
     </p>
     <p>

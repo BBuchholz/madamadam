@@ -101,8 +101,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'safari-pinned-tab.svg'],
       manifest: {
-        name: 'MaGiK WeL',
-        short_name: 'MW',
+        name: 'MADAMADAM',
+        short_name: 'MDMDM',
         theme_color: '#ffffff',
         icons: [
           {
