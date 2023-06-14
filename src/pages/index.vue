@@ -23,7 +23,7 @@ const { t } = useI18n()
       </a>
     </p>
     <p>
-      <em text-sm opacity-75>base template for all Coventry Grove Projeckts</em>
+      <em text-sm opacity-75>tha Expository Manifestation ov MDMDM Gnosis within tha MyriaD EcoSystem</em>
     </p>
 
     <div py-4 />
