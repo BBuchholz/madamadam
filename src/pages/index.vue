@@ -16,12 +16,7 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <img alt="Coventry Grove Builders Association Presents logo" src="/CGBAP_LOGO_CROPPED.png">
-    <p>
-      <a rel="noreferrer" href="https://github.com/BBuchholz/madamadam" target="_blank">
-        MADAMADAM
-      </a>
-    </p>
+    <img alt="MADAMADAM logo" src="/MADAMADAM_LOGO.png">
     <p>
       <em text-sm opacity-75>tha Expository Manifestation ov MDMDM Gnosis within tha MyriaD EcoSystem</em>
     </p>
@@ -55,8 +50,8 @@ meta:
 
 <style>
 img {
-  height: 25%;
-  width: 25%;
+  max-width: 100%;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
