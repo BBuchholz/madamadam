@@ -1,11 +1,11 @@
 <script setup lang="ts">
-const props = defineProps<{ name: string }>()
+const props = defineProps<{ myrKi: string }>()
 const router = useRouter()
 const user = useUserStore()
 const { t } = useI18n()
 
 watchEffect(() => {
-  user.setNewName(props.name)
+  user.setNewMyrKi(props.myrKi)
 })
 </script>
 
@@ -15,20 +15,20 @@ watchEffect(() => {
       <div i-carbon-pedestrian inline-block />
     </div>
     <p>
-      {{ t('intro.hi', { name: props.name }) }}
+      {{ props.myrKi }}
     </p>
 
     <p text-sm opacity-75>
-      <em>{{ t('intro.dynamic-route') }}</em>
+      <em>Testing myrKi Implementation</em>
     </p>
 
-    <template v-if="user.otherNames.length">
+    <template v-if="user.otherMyrKis.length">
       <p mt-4 text-sm>
         <span opacity-75>{{ t('intro.aka') }}:</span>
         <ul>
-          <li v-for="otherName in user.otherNames" :key="otherName">
-            <RouterLink :to="`/hi/${otherName}`" replace>
-              {{ otherName }}
+          <li v-for="otherMyrKi in user.otherMyrKis" :key="otherMyrKi">
+            <RouterLink :to="`/myrKiSs/${otherMyrKi}`" replace>
+              {{ otherMyrKi }}
             </RouterLink>
           </li>
         </ul>
