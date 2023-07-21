@@ -1,11 +1,11 @@
 <script setup lang="ts">
-const props = defineProps<{ myrKi: string }>()
+const props = defineProps<{ anyMyrKi: string }>()
 const router = useRouter()
 const user = useUserStore()
 const { t } = useI18n()
 
 watchEffect(() => {
-  user.setNewMyrKi(props.myrKi)
+  user.setNewMyrKi(props.anyMyrKi)
 })
 </script>
 
@@ -24,7 +24,7 @@ watchEffect(() => {
     </p>
 
     <p text-sm opacity-75>
-      <em>MYRKI '{{ props.myrKi }}' NOT RECOGNIZED</em>
+      <em>MYRKI '{{ props.anyMyrKi }}' NOT RECOGNIZED</em>
     </p>
 
     <p text-sm opacity-75>
