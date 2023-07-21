@@ -16,11 +16,6 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <img alt="MADAMADAM logo" :src="isDark ? '/MADAMADAM_LOGO.png' : '/MADAMADAM_LOGO_LIGHT.png'">
-    <p>
-      <em text-sm opacity-75>tha Expository Manifestation ov MDMDM Gnosis within tha MyriaD EcoSystem</em>
-    </p>
-
     <div py-4 />
 
     <TheInput
@@ -40,6 +35,11 @@ const { t } = useI18n()
         {{ t('button.go') }}
       </button>
     </div>
+    <img alt="MADAMADAM logo" :src="isDark ? '/MADAMADAM_LOGO.png' : '/MADAMADAM_LOGO_LIGHT.png'">
+
+    <p>
+      <em text-sm opacity-75>tha Expository Manifestation ov MDMDM Gnosis within tha MyriaD EcoSystem</em>
+    </p>
   </div>
 </template>
 
