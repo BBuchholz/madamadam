@@ -11,20 +11,29 @@ watchEffect(() => {
 
 <template>
   <div>
-    <div text-4xl>
-      <div i-carbon-pedestrian inline-block />
-    </div>
     <p>
-      {{ props.myrKi }}
+      -
+    </p>
+
+    <div text-4xl>
+      <div i-carbon-misuse-outline inline-block />
+    </div>
+
+    <p>
+      -
     </p>
 
     <p text-sm opacity-75>
-      <em>Testing myrKi Implementation</em>
+      <em>MYRKI '{{ props.myrKi }}' NOT RECOGNIZED</em>
+    </p>
+
+    <p text-sm opacity-75>
+      Please verify you entered it correctly.
     </p>
 
     <template v-if="user.otherMyrKis.length">
       <p mt-4 text-sm>
-        <span opacity-75>{{ t('intro.aka') }}:</span>
+        <span opacity-75>Recently attempts:</span>
         <ul>
           <li v-for="otherMyrKi in user.otherMyrKis" :key="otherMyrKi">
             <RouterLink :to="`/myrKiSs/${otherMyrKi}`" replace>
